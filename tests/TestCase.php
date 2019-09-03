@@ -1,6 +1,6 @@
 <?php
 
-namespace CoinPayments;
+namespace Coinpayments;
 
 abstract class TestCase extends \PHPUnit\Framework\TestCase
 { }
