@@ -31,6 +31,6 @@ $fields = [
   'cancel_url' => '<url-cancel>'
 ];//Para ver mais campos disponíveis acesse a documentação em https://www.coinpayments.net/merchant-tools-simple
 
-$botao = new Botao($fields);
+$botao = new \CoinPayments\Botao($fields);
 $result = $botao->executar(); //Retorna pagina em html do checkout
 ```
